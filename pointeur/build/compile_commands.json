@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/orca/a3/info/pointeur/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9    -g   -o CMakeFiles/td3.dir/main.cpp.o -c /home/orca/a3/info/pointeur/main.cpp",
+  "file": "/home/orca/a3/info/pointeur/main.cpp"
+}
+]

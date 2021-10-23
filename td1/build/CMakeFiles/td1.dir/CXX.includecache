@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/orca/a3/info/td1/include/functions.cpp
+string
+-
+iostream
+-
+cstring
+-
+
+/home/orca/a3/info/td1/include/headers.h
+functions.cpp
+/home/orca/a3/info/td1/include/functions.cpp
+
+/home/orca/a3/info/td1/src/main.cpp
+../include/headers.h
+/home/orca/a3/info/td1/include/headers.h
+

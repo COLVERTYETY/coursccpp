@@ -1,0 +1,2 @@
+/bin/ar qc libproject_lib.a  CMakeFiles/project_lib.dir/functions.cpp.o
+/bin/ranlib libproject_lib.a

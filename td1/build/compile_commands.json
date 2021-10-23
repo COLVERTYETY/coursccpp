@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/orca/a3/info/td1/build/lib",
+  "command": "/bin/x86_64-linux-gnu-g++-9    -g   -o CMakeFiles/project_lib.dir/functions.cpp.o -c /home/orca/a3/info/td1/lib/functions.cpp",
+  "file": "/home/orca/a3/info/td1/lib/functions.cpp"
+},
+{
+  "directory": "/home/orca/a3/info/td1/build/src",
+  "command": "/bin/x86_64-linux-gnu-g++-9    -g   -o CMakeFiles/td1.dir/main.cpp.o -c /home/orca/a3/info/td1/src/main.cpp",
+  "file": "/home/orca/a3/info/td1/src/main.cpp"
+}
+]
