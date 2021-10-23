@@ -1,4 +1,4 @@
-# coursccpp
+# cours C/Cpp
 
 Bonjours, ce repo contient le travaille que j'ai effectué lors des tds de c/cpp.
 Vous trouverez:
