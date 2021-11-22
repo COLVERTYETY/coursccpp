@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/td4.dir/main.cpp.o  -o td4  ../lib/libproject_lib.a 
