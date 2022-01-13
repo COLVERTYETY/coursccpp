@@ -4,7 +4,7 @@
 
 #ifndef INCLUDED
 #define INCLUDED
-int* valAt(int tab[], int i);
+int& valAt(int tab[], int i);
 void printArray(int tab[], int size);
 void Devinette();
 // template<typename T> T sum(T array[], int size);

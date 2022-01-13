@@ -13,8 +13,7 @@ int main(){
     srand(time(NULL));
     int mynumbers[size];
     for(int i=0;i<size;i++){
-        int* myval = valAt(mynumbers,i);
-        *myval = rand()%100;
+        valAt(mynumbers,i)=rand()%100;
     }  
     printArray(mynumbers, size);
     std::string words[] = {"mot","phrase","triangle"};

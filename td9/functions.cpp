@@ -29,14 +29,14 @@ void Devinette(){
 // }
 
 template<typename T, typename R> R sum(T array[], int size){
-    R sum=0;
+    R s(0);
     for(int i=0;i<size;i++){
-        sum+=(R)array[i];
+        s+=(R)array[i];
     }
-    return sum;
+    return s;
 }
 
-template<> int  sum<std::string>(std::string array[], int size){
+template<> int  sum<std::string, int>(std::string array[], int size){
     int length=0;
     for(int i=0;i<size;i++){
         length+=array[i].length();
@@ -44,12 +44,12 @@ template<> int  sum<std::string>(std::string array[], int size){
     return length;
 }
 
-int* valAt(int tab[], int i){
-    return &(*(tab+i));
+int& valAt(int tab[], int i){
+    return tab[i];
 }
 void printArray(int tab[], int size){
     for(int i=0;i<size;i++){
-        std::cout << *valAt(tab, i) << " ";
+        std::cout << valAt(tab, i) << " ";
     }
     std::cout << "\n";
 }
