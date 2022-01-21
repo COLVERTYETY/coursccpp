@@ -1,0 +1,1 @@
+g++ shape.cpp circle.cpp rectangle.cpp main.cpp -o out
